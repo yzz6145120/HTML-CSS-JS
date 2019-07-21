@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>各种输入类型-表单</title>
+</head>
+
+<body>
+
+    <form action="提交后跳转的目标网页" method="GET">
+        <!-- 普通输入 -->
+        用户名：
+        <input type="text"><br/>
+        密码:
+        <input type="password"><br/>
+        <!-- 多选 -->
+        喜欢的偶像？<br>
+        金草研<input type="checkbox"><br>
+        都敏俊<input type="checkbox"><br>
+        <!-- 单选 -->
+        性别？<br>
+        男<input type="radio" name="sex"><br>
+        女<input type="radio" name="sex"><br>
+        <!-- 下拉列表选项 -->
+        教育水平
+        <select>
+            <option>初中专</option>
+            <option>高中专</option>
+            <option>大学及以上</option>
+        </select>
+        <!-- 按钮 -->
+        <input type="button" value="保存">
+        <!-- 提交 -->
+        <input type="submit" value="确认">
+
+
+    </form>
+    <!-- 大型表格 -->
+    <textarea cols="30" rows="10">备注</textarea>
+
+</body>
+</html>
